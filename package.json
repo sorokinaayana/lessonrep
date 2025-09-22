@@ -1,0 +1,22 @@
+{
+  "name": "qa_guru_auto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorokinaayana/lessonrep.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sorokinaayana/lessonrep/issues"
+  },
+  "homepage": "https://github.com/sorokinaayana/lessonrep#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.5.2"
+  }
+}
