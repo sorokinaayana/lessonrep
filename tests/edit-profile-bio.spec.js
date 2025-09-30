@@ -9,8 +9,8 @@ test('редактирование профиля с проверкой сохр
 
   // Переход в настройки профиля
   await page.getByText(userData.username).click();
-  await page.getByRole('link', { name: ' Profile' }).click();
-  await page.getByRole('link', { name: ' Edit Profile Settings' }).click();
+  await page.getByRole('link', { name: 'Profile' }).click();
+  await page.getByRole('link', { name: 'Edit Profile Settings' }).click();
 
   //  Редактирование БИО
   const newBio = 'обновление профиля ' + Date.now();
