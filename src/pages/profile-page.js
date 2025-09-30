@@ -1,10 +1,10 @@
 ﻿export class ProfilePage {
   constructor(page) {
     this.page = page;
-    // Используем локаторы из твоего Codegen
-    this.usernameLink = page.getByText('Yana'); // Замени 'Yana' на динамическое имя
-    this.profileLink = page.getByRole('link', { name: ' Profile' });
-    this.editProfileLink = page.getByRole('link', { name: ' Edit Profile Settings' });
+    // Локаторы 
+    this.usernameLink = page.getByText('Yana'); // позже заменить  , пока вроде работает так 
+    this.profileLink = page.getByRole('link', { name: 'Profile' });
+    this.editProfileLink = page.getByRole('link', { name: 'Edit Profile Settings' });
     this.bioInput = page.getByRole('textbox', { name: 'Short bio about you' });
     this.updateButton = page.getByRole('button', { name: 'Update Settings' });
     this.successMessage = page.getByText('Update successful');
